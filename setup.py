@@ -10,5 +10,5 @@ setup(
 					'Natural Language :: English',
 					'Programming Language :: Python :: 3 :: Only',
 					'Programming Language :: Python :: Implementation :: CPython'],
-	ext_modules = [Extension('fib.fib', ['fib/fib.c'])]
+	ext_modules = [Extension('fib.fib', ['fib/fib.cpp'])]
 	)
